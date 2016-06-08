@@ -2,101 +2,71 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>Admin Porfolio</title>
-    <!-- Bootstrap Core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic,800|Changa+One' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dantes Zell | Designer</title>
 </head>
 
 <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header name-brand">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">Admin Torres</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="about.html">About Me</a>
-                    </li>
-                    <li>
-                        <a href="work.html">Works</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-        <header class="work">
-            
-        </header>
-    <!-- Page Content -->
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h1>Full Slider by Start Bootstrap</h1>
-                <p>The background images for the slider are set directly in the HTML using inline CSS. The rest of the styles for this template are contained within the <code>full-slider.css</code>file.</p>
-            </div>
-        </div>
-        <hr>
-        <!-- Footer -->
+    <header>
+        <a href="index.html" id="logo">
+            <h1>Admin Torres</h1>
+            <h2>Artista</h2>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="index.html" >Porfolio</a></li>
+                <li><a href="work.html" class="selected">Work</a></li>                
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="wrapper">
+        <section>
+            <ul id="gallery">
+                <li>
+                    <a href="assets/img/numbers-01.jpg">
+                        <img src="assets/img/numbers-01.jpg" alt>
+                        <p>Experimentation with color and texture</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/img/numbers-02.jpg">
+                        <img src="assets/img/numbers-02.jpg" alt>
+                        <p>Playing with blending mode</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/img/numbers-06.jpg">
+                        <img src="assets/img/numbers-06.jpg" alt>
+                        <p>Trying to create an 80's style of glow</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/img/numbers-09.jpg">
+                        <img src="assets/img/numbers-09.jpg" alt>
+                        <p>Drips created using Photoshop brushes</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="assets/img/numbers-12.jpg">
+                        <img src="assets/img/numbers-12.jpg" alt>
+                        <p>Creating shapes using repetition</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
         <footer>
-            <div class="icons">
-                <ul>
-                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.snapchat.com/" target="_blank"><i class="fa fa-snapchat fa-3x" aria-hidden="true"></i></a></li>
-                    <li><a href="https://www.linkedin.com/" target="_blank"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-            <p>Admina Torres Copyright &copy; 2016</p>
+            <a href="http://twitter.com"><img src="assets/img/twitter-wrap.png" alt="twitter logo" class="social-icon"></a>
+            <a href="http://facebook.com"><img src="assets/img/facebook-wrap.png" alt="facebook logo" class="social-icon"></a>
+            <p> &copy; 2016 Dante Zell.</p>
+        </footer>
     </div>
-    </div>
-    <!-- /.row -->
-    </footer>
-    </div>
-    <!-- /.container -->
-    <!-- jQuery -->
-    <script src="assets/js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <!-- Script to Activate the Carousel -->
-    <script>
-    $('.carousel').carousel({
-        interval: 4000 //changes the speed
-    })
-    </script>
 </body>
 
 </html>
